@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sauce Two", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color:#000080;
 	background: linear-gradient(-45deg, #FFE9C4, #FFDFAB, #CEDBE0, #ABD7FF);
   animation: gradient 15s ease infinite;
@@ -10,6 +10,7 @@ body {
 * {
   box-sizing: border-box;
 }
+
 
 .stage {
   position: relative;
@@ -98,7 +99,6 @@ img {
 #visit {
   color: #7194C9;
   text-underline-offset: 0.15em;
-  text-decoration: underline 0.10em rgba(113, 148, 201, 1);
 }
 
 .box-absolute-left-10 a {
@@ -191,8 +191,13 @@ img {
 }
 
 .emphasized { 
-  font-weight: bold;
   color: #000080;
+  text-decoration: none;
+}
+
+.emphasized:hover { 
+  color: #000080;
+  text-decoration: underline;
 }
 
 @keyframes gradient {
